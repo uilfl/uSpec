@@ -1,0 +1,60 @@
+{
+  "name": "uspec",
+  "version": "1.0.0",
+  "description": "Automate design system documentation — from Figma to finished specs. Generate API specs, color annotations, structure specs, screen reader specs, motion specs, component anatomy, and changelogs directly from Figma files.",
+  "author": "Ian Guisard",
+  "license": "MIT",
+  "homepage": "https://uspec.design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/uSpec"
+  },
+  "skills": [
+    {
+      "name": "anatomy",
+      "description": "Generate component anatomy annotations with numbered markers and attribute tables for every element",
+      "path": "skills/anatomy/SKILL.md"
+    },
+    {
+      "name": "api",
+      "description": "Generate API specifications with properties, values, defaults, and configuration examples",
+      "path": "skills/api/SKILL.md"
+    },
+    {
+      "name": "changelog",
+      "description": "Generate component changelogs documenting changes and updates",
+      "path": "skills/changelog/SKILL.md"
+    },
+    {
+      "name": "color",
+      "description": "Generate color annotations with design token mapping for every element and state",
+      "path": "skills/color/SKILL.md"
+    },
+    {
+      "name": "motion",
+      "description": "Generate motion specifications with animation timeline bars and easing details from After Effects data",
+      "path": "skills/motion/SKILL.md"
+    },
+    {
+      "name": "screen-reader",
+      "description": "Generate screen reader specifications for VoiceOver, TalkBack, and ARIA accessibility",
+      "path": "skills/screen-reader/SKILL.md"
+    },
+    {
+      "name": "structure",
+      "description": "Generate structure specifications with dimensions, spacing, and padding across density and size variants",
+      "path": "skills/structure/SKILL.md"
+    }
+  ],
+  "requirements": {
+    "mcp": {
+      "servers": [
+        {
+          "name": "figma-console",
+          "description": "Required for connecting to Figma files and extracting component data",
+          "required": true
+        }
+      ]
+    }
+  }
+}
