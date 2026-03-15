@@ -50,57 +50,57 @@
     {
       "name": "create-anatomy",
       "description": "Generate a visual anatomy annotation in Figma showing numbered markers on a component instance with an attribute table.",
-      "path": "skills/create-anatomy/SKILL.md"
+      "path": "anatomy/skills/SKILL.md"
     },
     {
       "name": "create-api",
       "description": "Generate API overview specifications documenting component properties, values, defaults, and configuration examples.",
-      "path": "skills/create-api/SKILL.md"
+      "path": "api/skills/SKILL.md"
     },
     {
       "name": "create-changelog",
       "description": "Generate a new changelog for a component or design system file with the first entry.",
-      "path": "skills/create-changelog/SKILL.md"
+      "path": "changelog/skills/create-changelog/SKILL.md"
     },
     {
       "name": "update-changelog",
       "description": "Add new entries directly to an existing changelog in Figma using MCP tools.",
-      "path": "skills/update-changelog/SKILL.md"
+      "path": "changelog/skills/update-changelog/SKILL.md"
     },
     {
       "name": "convert-changelog",
       "description": "Convert an existing Figma changelog into structured JSON format.",
-      "path": "skills/convert-changelog/SKILL.md"
+      "path": "changelog/skills/convert-changelog/SKILL.md"
     },
     {
       "name": "create-color",
       "description": "Generate color annotation specifications mapping UI elements to design tokens.",
-      "path": "skills/create-color/SKILL.md"
+      "path": "color/skills/SKILL.md"
     },
     {
       "name": "create-motion",
       "description": "Generate motion specification annotations from After Effects timeline data.",
-      "path": "skills/create-motion/SKILL.md"
+      "path": "motion/skills/SKILL.md"
     },
     {
       "name": "create-property",
       "description": "Generate a visual property annotation in Figma showing each configurable property axis with component instance previews.",
-      "path": "skills/create-property/SKILL.md"
+      "path": "property/skills/SKILL.md"
     },
     {
       "name": "create-structure",
       "description": "Generate structure specifications documenting component dimensions, spacing, padding, and variant changes.",
-      "path": "skills/create-structure/SKILL.md"
+      "path": "structure/skills/SKILL.md"
     },
     {
       "name": "create-voice",
       "description": "Generate screen reader accessibility specifications for VoiceOver, TalkBack, and ARIA.",
-      "path": "skills/create-voice/SKILL.md"
+      "path": "screen-reader/skills/SKILL.md"
     },
     {
       "name": "setup-library",
       "description": "Configure uSpec with your Figma template library.",
-      "path": "skills/setup-library/SKILL.md"
+      "path": "setup-library/skills/SKILL.md"
     }
   ],
   "requirements": {
